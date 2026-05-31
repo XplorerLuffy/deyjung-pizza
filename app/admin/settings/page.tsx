@@ -33,7 +33,7 @@ export default function SettingsPage() {
       const data = await res.json() as Settings
       setSettings({
         restaurant_name: 'DEYJUNG Restro & Pizzeria',
-        whatsapp_number: '97517000000',
+        whatsapp_number: '17723849',
         daily_fixed_costs: '0',
         opening_hours: 'Mon–Sun 11AM–10PM',
         address: 'Gelephu Mindfulness City, Bhutan',

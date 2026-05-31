@@ -39,7 +39,7 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
     }
 
     const message = buildWhatsAppMessage(items, grandTotal, orderContext)
-    const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '97517000000'
+    const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '17723849'
 
     // Save order to DB
     try {
