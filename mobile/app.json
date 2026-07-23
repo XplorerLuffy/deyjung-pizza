@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "DEYJUNG Orders",
+    "slug": "deyjung-orders",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.deyjung.orders",
+      "infoPlist": {
+        "NSUserNotificationUsageDescription": "Receive notifications when new orders arrive."
+      }
+    },
+    "android": {
+      "package": "com.deyjung.orders",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "backgroundColor": "#0A0A0A"
+      },
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#D4A853",
+          "sounds": [],
+          "androidMode": "default",
+          "androidCollapsedTitle": "DEYJUNG Orders"
+        }
+      ]
+    ],
+    "scheme": "deyjung-orders"
+  }
+}
